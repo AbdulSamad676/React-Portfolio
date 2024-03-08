@@ -1,11 +1,13 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
+import { Footer, Header } from './components';
 
 function App() {
 	return (
 		<>
-			<h3 className='text-3xl font-bold underline text-center'>
-				Portfolio Website
-			</h3>
+			<Header />
+			<Outlet />
+			<Footer />
 		</>
 	);
 }
