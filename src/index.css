@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.html-icon {
+	font-size: 100px;
+	color: rgb(218, 205, 230);
+}
+.html-icon:hover {
+	font-size: 120px;
+	color: rgb(120, 30, 204);
+}
