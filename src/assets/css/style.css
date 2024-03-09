@@ -68,9 +68,9 @@
 .custom-bg {
 	background-color: rgb(11, 11, 53);
 }
-/* .resume-btn {
+.resume-btn {
 	background-color: rgb(11, 11, 53);
-} */
+}
 .resume-btn:hover {
 	background-color: white;
 	color: rgb(11, 11, 53);
