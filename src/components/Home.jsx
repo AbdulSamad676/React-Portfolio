@@ -11,7 +11,7 @@ import {
 function Home() {
 	return (
 		<div className='hero-section '>
-			<div className='top-row grid grid-cols-10 gap-2  ml-auto  border border-white'>
+			<div className='top-row grid grid-cols-10 gap-2  ml-auto  '>
 				<div className='image-section   rounded-lg col-span-2 '>
 					<img
 						className='drop-shadow-lg shadow-black'
@@ -55,7 +55,15 @@ function Home() {
 					</div>
 				</div>
 			</div>
-			<div className='top-row my-5   min-h-[100px]  ml-auto border border-white'></div>
+			<div className='top-row my-5 px-5 w-7/12   min-h-[100px]  mx-auto  '>
+				<p className='text-white ml-9 text-justify text-lg pera-text '>
+					Hello, I'm Abdul Samad Khan, a dedicated front-end developer
+					with two years of freelancing experience on Fiverr.
+					Recently, I've delved into the exciting world of ReactJS,
+					mastering its fundamentals and eager to apply my skills in
+					dynamic web development.
+				</p>
+			</div>
 		</div>
 	);
 }
