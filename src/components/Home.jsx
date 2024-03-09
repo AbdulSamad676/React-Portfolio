@@ -22,7 +22,7 @@ function Home() {
 					/>
 				</div>
 				<div className='rounded-3xl col-span-6 py-5 w-full ml-5'>
-					<h1 className='main-heading text-4xl text-white my-3 font-bold'>
+					<h1 className='black-shadow text-4xl text-white my-3 font-bold'>
 						Abdul Samad Khan
 					</h1>
 					<div className='icons-section flex w-9/12 justify-evenly items-center py-5 '>
@@ -54,7 +54,7 @@ function Home() {
 				</div>
 			</div>
 			<div className='top-row my-5 px-5 w-7/12 min-h-[100px] mx-auto  '>
-				<p className='text-white ml-9 text-justify text-lg pera-text '>
+				<p className='text-white ml-9 text-justify text-lg black-shadow '>
 					Hello, I'm Abdul Samad Khan, a dedicated front-end developer
 					with two years of freelancing experience on Fiverr.
 					Recently, I've delved into the exciting world of ReactJS,

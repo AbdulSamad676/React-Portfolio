@@ -50,7 +50,6 @@
 }
 */
 .icons-section {
-	background-color: rgb(11, 11, 53);
 	border-radius: 25px;
 	border: 2px solid white;
 	max-width: 600px;
@@ -59,15 +58,24 @@
 	/* margin: 40px auto; */
 	box-sizing: border-box;
 }
-.main-heading,
-.pera-text {
+.black-shadow {
 	text-shadow: 2px 2px 5px black;
 }
-.resume-btn {
+/* .main-heading,
+.pera-text {
+	text-shadow: 2px 2px 5px black;
+} */
+.custom-bg {
 	background-color: rgb(11, 11, 53);
 }
+/* .resume-btn {
+	background-color: rgb(11, 11, 53);
+} */
 .resume-btn:hover {
 	background-color: white;
 	color: rgb(11, 11, 53);
 	/* font-size: 1.25rem; */
+}
+.about-main {
+	background-image: url('../images/bg-1.jpg');
 }
