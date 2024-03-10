@@ -21,9 +21,9 @@ function Home() {
 	};
 
 	return (
-		<div className='hero-section '>
-			<div className='top-row grid md:grid-cols-10 gap-2  ml-auto  '>
-				<div className='image-section flex justify-center items-center rounded-lg col-span-2 '>
+		<div className='hero-section h-full sm:pb-5'>
+			<div className='top-row grid grid-cols-12 md:grid-cols-10 gap-2 mx-auto  md:ml-auto  '>
+				<div className='image-section flex justify-center items-center rounded-lg col-span-10 md:col-span-3  '>
 					<img
 						className='drop-shadow-lg shadow-black mt-5'
 						src={profileImage}
@@ -32,11 +32,11 @@ function Home() {
 						alt='profile'
 					/>
 				</div>
-				<div className='rounded-3xl col-span-6 py-5 w-full ml-5'>
-					<h1 className='black-shadow text-4xl text-white my-3 font-bold'>
+				<div className='rounded-3xl col-span-12 md:col-span-7 py-5 w-full md:ml-5'>
+					<h1 className='black-shadow text-2xl md:text-4xl text-center md:text-left text-white my-3 font-bold w-10/12 md:w-full mx-auto'>
 						Abdul Samad Khan
 					</h1>
-					<div className='icons-section flex w-9/12 justify-evenly items-center py-5 '>
+					<div className='mx-auto icons-section flex w-10/12 md:w-full justify-evenly items-center py-5 '>
 						<div className='icons-item'>
 							<FontAwesomeIcon
 								className='html-icon text-6xl hover:text-7xl'
@@ -64,8 +64,8 @@ function Home() {
 					</div>
 				</div>
 			</div>
-			<div className='top-row my-5 px-5 w-7/12 min-h-[100px] mx-auto  '>
-				<p className='text-white ml-9 text-justify text-lg black-shadow '>
+			<div className='top-row my-5 md:px-5 md:w-7/12 min-h-[100px] mx-auto  '>
+				<p className='text-white md:ml-9 text-justify text-lg black-shadow '>
 					Hello, I'm Abdul Samad Khan, a dedicated front-end developer
 					with two years of freelancing experience on Fiverr.
 					Recently, I've delved into the exciting world of ReactJS,
@@ -73,7 +73,7 @@ function Home() {
 					dynamic web development.
 				</p>
 				<button
-					className='resume-btn my-5 sm:ml-9 text-white font-bold py-2 px-4 rounded'
+					className='resume-btn my-5 md:ml-9 text-white font-bold py-2 px-4 rounded'
 					onClick={handleDownload}
 				>
 					download Resume
