@@ -3,7 +3,7 @@ import aboutImg from '../assets/images/about.png';
 function About() {
 	return (
 		<div className='container mx-auto rounded-lg grid grid-cols-2 gap-10 my-5 '>
-			<div className=' flex justify-center  rounded-lg'>
+			<div className=' flex flex-col justify-start items-center  rounded-lg'>
 				<img
 					className='rounded-xl'
 					src={aboutImg}
@@ -11,6 +11,11 @@ function About() {
 					height={200}
 					alt='aboutImage'
 				/>
+				<h2 className='text-3xl font-bold'>Abdul Samad Khan</h2>
+				<p>Computer Software Engineer</p>
+				<button className='custom-btn my-5 text-justify  font-bold py-2 px-4 rounded'>
+					Read More
+				</button>
 			</div>
 			<div className='custom-bg min-h-[100px] rounded-lg p-4'>
 				<h2 className='text-3xl font-bold text-center my-3 text-white black-shadow'>
