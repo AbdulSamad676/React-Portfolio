@@ -36,7 +36,7 @@ function Home() {
 					<h1 className='black-shadow text-2xl md:text-4xl text-center md:text-left text-white my-3 font-bold w-10/12 md:w-full mx-auto'>
 						Abdul Samad Khan
 					</h1>
-					<div className=' icons-section flex w-10/12 md:w-full justify-evenly items-center py-5 '>
+					<div className=' icons-section flex   justify-evenly items-center py-5 '>
 						<div className='icons-item'>
 							<FontAwesomeIcon
 								className='html-icon text-6xl hover:text-7xl'
