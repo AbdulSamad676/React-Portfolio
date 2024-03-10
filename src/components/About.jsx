@@ -2,7 +2,7 @@ import React from 'react';
 import aboutImg from '../assets/images/about.png';
 function About() {
 	return (
-		<div className='container mx-auto rounded-lg grid grid-cols-2 gap-10 my-5 '>
+		<div className='container mx-auto rounded-lg grid md:grid-cols-2 gap-10 my-5 '>
 			<div className=' flex flex-col justify-start items-center  rounded-lg'>
 				<img
 					className='rounded-xl'
@@ -17,7 +17,7 @@ function About() {
 					Read More
 				</button>
 			</div>
-			<div className='custom-bg min-h-[100px] rounded-lg p-4'>
+			<div className='custom-bg min-h-[100px] rounded-lg p-4 sm:mx-0 mx-3'>
 				<h2 className='text-3xl font-bold text-center my-3 text-white black-shadow'>
 					Who I am
 				</h2>

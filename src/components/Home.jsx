@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faBaseball } from '@fortawesome/free-solid-svg-icons';
 import profileImage from '../assets/images/profile.png';
+import tempPath from '../assets/CV/CV.pdf';
+
 import {
 	faHtml5,
 	faCss3,
@@ -9,6 +11,15 @@ import {
 	faReact,
 } from '@fortawesome/free-brands-svg-icons';
 function Home() {
+	const handleDownload = () => {
+		const link = document.createElement('a');
+		link.href = tempPath; // Use the imported tempPath variable
+		link.download = 'CV.pdf';
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+	};
+
 	return (
 		<div className='hero-section '>
 			<div className='top-row grid md:grid-cols-10 gap-2  ml-auto  '>
@@ -61,7 +72,10 @@ function Home() {
 					mastering its fundamentals and eager to apply my skills in
 					dynamic web development.
 				</p>
-				<button className='resume-btn my-5 sm:ml-9 text-white font-bold py-2 px-4 rounded'>
+				<button
+					className='resume-btn my-5 sm:ml-9 text-white font-bold py-2 px-4 rounded'
+					onClick={handleDownload}
+				>
 					download Resume
 				</button>
 			</div>

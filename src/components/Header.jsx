@@ -64,6 +64,9 @@ export default function Header() {
 						<ul className='flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0'>
 							<li>
 								<NavLink
+									onClick={() => {
+										setIsOpen(false);
+									}}
 									to='/'
 									className={({ isActive }) =>
 										`block py-2 pr-4 pl-3 duration-200 ${
@@ -81,6 +84,9 @@ export default function Header() {
 							</li>
 							<li>
 								<NavLink
+									onClick={() => {
+										setIsOpen(false);
+									}}
 									to='/about'
 									className={({ isActive }) =>
 										`block py-2 pr-4 pl-3 duration-200 ${
@@ -98,6 +104,9 @@ export default function Header() {
 							</li>
 							<li>
 								<NavLink
+									onClick={() => {
+										setIsOpen(false);
+									}}
 									to='/contact'
 									className={({ isActive }) =>
 										`block py-2 pr-4 pl-3 duration-200 
@@ -116,6 +125,9 @@ export default function Header() {
 							</li>
 							<li>
 								<NavLink
+									onClick={() => {
+										setIsOpen(false);
+									}}
 									to='/github'
 									className={({ isActive }) =>
 										`block py-2 pr-4 pl-3 duration-200 
