@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Footer() {
 	return (
@@ -153,12 +153,12 @@ export default function Footer() {
 				<div className='sm:flex sm:items-center sm:justify-between'>
 					<span className='text-sm text-gray-500 sm:text-center'>
 						© 2023
-						<a
-							href='https://hiteshchoudhary.com/'
+						<NavLink
+							to={'https://github.com/AbdulSamad676'}
 							className='hover:underline'
 						>
 							AbdulSamad676
-						</a>
+						</NavLink>
 						. All Rights Reserved.
 					</span>
 					<div className='flex mt-4 space-x-5 sm:justify-center sm:mt-0'>
