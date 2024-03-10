@@ -32,11 +32,11 @@ function Home() {
 						alt='profile'
 					/>
 				</div>
-				<div className='rounded-3xl col-span-12 md:col-span-7 py-5 w-full md:ml-5'>
+				<div className='rounded-3xl col-span-12 md:col-span-7 py-5 w-full '>
 					<h1 className='black-shadow text-2xl md:text-4xl text-center md:text-left text-white my-3 font-bold w-10/12 md:w-full mx-auto'>
 						Abdul Samad Khan
 					</h1>
-					<div className='mx-auto icons-section flex w-10/12 md:w-full justify-evenly items-center py-5 '>
+					<div className=' icons-section flex w-10/12 md:w-full justify-evenly items-center py-5 '>
 						<div className='icons-item'>
 							<FontAwesomeIcon
 								className='html-icon text-6xl hover:text-7xl'
@@ -64,8 +64,8 @@ function Home() {
 					</div>
 				</div>
 			</div>
-			<div className='top-row my-5 md:px-5 md:w-7/12 min-h-[100px] mx-auto  '>
-				<p className='text-white md:ml-9 text-justify text-lg black-shadow '>
+			<div className='top-row my-5 md:px-5 md:w-8/12 min-h-[100px] mx-auto  '>
+				<p className='text-white  text-justify text-lg black-shadow '>
 					Hello, I'm Abdul Samad Khan, a dedicated front-end developer
 					with two years of freelancing experience on Fiverr.
 					Recently, I've delved into the exciting world of ReactJS,
