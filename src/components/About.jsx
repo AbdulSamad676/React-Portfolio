@@ -3,8 +3,8 @@ import aboutImg from '../assets/images/about.png';
 function About() {
 	return (
 		<div className='container mx-auto rounded-lg grid md:grid-cols-12 gap-10 my-5 md:w-10/12'>
-			<div className='flex w-full  md:col-span-4'>
-				<div className=' flex flex-col justify-start items-center  rounded-lg'>
+			<div className='flex justify-center w-full md:col-span-4'>
+				<div className=' flex flex-col w-full justify-start items-center  rounded-lg'>
 					<img
 						className='rounded-xl'
 						src={aboutImg}
