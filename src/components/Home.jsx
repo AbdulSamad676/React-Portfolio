@@ -72,12 +72,14 @@ function Home() {
 					mastering its fundamentals and eager to apply my skills in
 					dynamic web development.
 				</p>
-				<button
-					className='resume-btn my-5 md:ml-9 text-white font-bold py-2 px-4 rounded'
-					onClick={handleDownload}
-				>
-					download Resume
-				</button>
+				<div className='w-full flex justify-center'>
+					<button
+						className='resume-btn my-5  text-white font-bold py-2 px-4 rounded'
+						onClick={handleDownload}
+					>
+						download Resume
+					</button>
+				</div>
 			</div>
 		</div>
 	);
