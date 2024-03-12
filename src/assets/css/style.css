@@ -78,6 +78,17 @@
 	color: rgb(11, 11, 53);
 	border: 1px solid rgb(11, 11, 53);
 }
+
+.primary-btn {
+	background-color: white;
+	color: rgb(11, 11, 53);
+	border: 1px solid rgb(11, 11, 53);
+}
+.primary-btn:hover {
+	color: white;
+	background-color: rgb(11, 11, 53);
+	border: 1px solid white;
+}
 .resume-btn {
 	background-color: rgb(11, 11, 53);
 }
