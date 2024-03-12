@@ -1,6 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import aboutImg from '../assets/images/about.png';
 function About() {
+	const [matric, setMatric] = useState(true);
+	const [intermediate, setIntermediate] = useState(false);
+	const [bachelor, setBachelor] = useState(false);
+	function handleMatric() {
+		setMatric(true);
+		setBachelor(false);
+		setIntermediate(false);
+	}
+
+	function handleIntermediate() {
+		setMatric(false);
+		setBachelor(false);
+		setIntermediate(true);
+	}
+	function handleBachelor() {
+		setMatric(false);
+		setBachelor(true);
+		setIntermediate(false);
+	}
+
 	return (
 		<>
 			<div className='container mx-auto rounded-lg grid md:grid-cols-12 gap-10 my-5 md:w-10/12'>
@@ -45,22 +65,72 @@ function About() {
 					</button>
 				</div>
 			</div>
-			<div className='container w-10/12 mx-auto border boder-black custom-bg rounded-lg'>
-				<h2 className='text-3xl text-center font-bold  text-white my-3 black-shadow'>
+			<div className='container md:w-10/12 mx-auto border boder-black custom-bg rounded-lg py-5 md:py-10'>
+				<h2 className='text-3xl text-center font-bold mb-3 text-white  black-shadow'>
 					Education
 				</h2>
-				<div className='buttons-section flex justify-evenly w-5/12 p-2 mx-auto'>
-					<button className='primary-btn  text-justify  font-bold py-2 px-4 rounded'>
+				<div className='buttons-section flex flex-wrap justify-center md:justify-between w-full md:w-5/12  mx-auto mb-5'>
+					<button
+						className='primary-btn  font-bold py-2 px-4 rounded focus:bg-green-950 focus:text-white '
+						onClick={handleMatric}
+					>
 						Matric
 					</button>
-					<button className='primary-btn  text-justify  font-bold py-2 px-4 rounded'>
+					<button
+						className='primary-btn  font-bold py-2 px-4 rounded focus:bg-violet-950 focus:text-white'
+						onClick={handleIntermediate}
+					>
 						Intermediate
 					</button>
-					<button className='primary-btn  text-justify  font-bold py-2 px-4 rounded'>
+					<button
+						className='primary-btn  font-bold py-2 px-4 rounded'
+						onClick={handleBachelor}
+					>
 						Bachelor
 					</button>
 				</div>
-				<div className='edu-section'>Here are the Education</div>
+				{matric && (
+					<div className='edu-section bg-green-950 text-white  rounded w-10/12 md:w-5/12  py-5 px-3 mx-auto box-border'>
+						<h3 className='text-xl font-bold'>
+							Board of Intermediate and Secondary Education Bannu
+						</h3>
+						<p className='p-0 my-3'>
+							IQRA Public High School Bannu
+						</p>
+						<p>
+							Obtained Marks:{' '}
+							<b className='underline'>927/1100</b> with Grade A1
+						</p>
+					</div>
+				)}
+				{intermediate && (
+					<div className='edu-section text-white border border-white rounded w-10/12 md:w-5/12  py-5 px-3 mx-auto box-border'>
+						<h3 className='text-xl font-bold'>
+							Board of Intermediate and Secondary Education Bannu
+						</h3>
+						<p className='p-0 my-3'>
+							Govt Degree College No 2 Bannu
+						</p>
+						<p>
+							Obtained Marks:{' '}
+							<b className='underline'>848/1100</b> with Grade A
+						</p>
+					</div>
+				)}
+				{bachelor && (
+					<div className='edu-section text-white bg-orange-800 black-shadow rounded w-10/12 md:w-5/12  py-5 px-3 mx-auto box-border'>
+						<h3 className='text-xl font-bold'>
+							University of Engineering and Technology Peshawar
+						</h3>
+						<p className='p-0 my-3'>
+							Computer Software Engineering
+						</p>
+						<p>
+							Obtained Marks:{' '}
+							<b className='underline'>3.05/4.00</b> with Grade A
+						</p>
+					</div>
+				)}
 			</div>
 		</>
 	);
