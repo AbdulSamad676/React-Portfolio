@@ -111,4 +111,9 @@
 }
 .service-item {
 	background-color: rgb(20, 20, 80);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	/* width: max-content; */
 }
