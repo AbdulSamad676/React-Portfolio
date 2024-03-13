@@ -83,7 +83,7 @@ function About() {
 						Intermediate
 					</button>
 					<button
-						className='primary-btn  font-bold py-2 px-4 rounded'
+						className='primary-btn  font-bold py-2 px-4 rounded focus:bg-orange-800'
 						onClick={handleBachelor}
 					>
 						Bachelor
