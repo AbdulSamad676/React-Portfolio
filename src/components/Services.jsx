@@ -11,7 +11,7 @@ import React from 'react';
 function Services() {
 	return (
 		<div className='container mx-auto my-10 '>
-			<h2 className='text-center my-2 py-2 px-5 text-2xl w-max font-bold text-white black-shadow custom-bg rounded-lg mx-auto'>
+			<h2 className='text-center my-2 py-2 px-10 text-2xl w-max font-bold text-white black-shadow custom-bg rounded-lg mx-auto'>
 				Services
 			</h2>
 			<div className='grid md:grid-cols-3 sm:grid-cols-2  gap-x-[5rem] md:gap-x-10 gap-y-5 p-4 md:w-10/12 mx-auto '>
@@ -57,7 +57,7 @@ function Services() {
 						icon={faDesktop}
 					/>
 					<h3 className='font-bold black-shadow text-xl '>
-						HTML Services
+						Website Design
 					</h3>
 				</div>
 				<div className='service-item h-32 p-4 rounded-lg text-white custom-bg border border-white'>
@@ -66,7 +66,7 @@ function Services() {
 						icon={faLaptopCode}
 					/>
 					<h3 className='font-bold black-shadow text-xl '>
-						HTML Services
+						Website Customization
 					</h3>
 				</div>
 			</div>
