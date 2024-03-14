@@ -128,7 +128,7 @@ export default function Header() {
 									onClick={() => {
 										setIsOpen(false);
 									}}
-									to='/github'
+									to='/projects'
 									className={({ isActive }) =>
 										`block py-2 pr-4 pl-3 duration-200 
                                         ${
@@ -141,7 +141,7 @@ export default function Header() {
                                          hover:text-orange-700 lg:p-0`
 									}
 								>
-									Github
+									Projects
 								</NavLink>
 							</li>
 						</ul>

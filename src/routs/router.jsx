@@ -1,5 +1,5 @@
 import App from '../App';
-import { Home, About, Contact, Github } from '../components';
+import { Home, About, Contact, Projects } from '../components';
 
 const rootRouters = [
 	{
@@ -19,8 +19,8 @@ const rootRouters = [
 				element: <Contact />,
 			},
 			{
-				path: '/github',
-				element: <Github />,
+				path: '/projects',
+				element: <Projects />,
 			},
 		],
 	},
