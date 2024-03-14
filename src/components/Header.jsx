@@ -71,12 +71,12 @@ export default function Header() {
 									className={({ isActive }) =>
 										`block py-2 pr-4 pl-3 duration-200 ${
 											isActive
-												? 'text-orange-700'
-												: 'text-gray-700'
+												? 'primary-color '
+												: 'text-gray-500'
 										} border-b border-gray-100 
                                         hover:bg-gray-50
                                      lg:hover:bg-transparent lg:border-0
-                                         hover:text-orange-700 lg:p-0`
+                                         hover:primary-color lg:p-0`
 									}
 								>
 									Home
@@ -91,12 +91,12 @@ export default function Header() {
 									className={({ isActive }) =>
 										`block py-2 pr-4 pl-3 duration-200 ${
 											isActive
-												? 'text-orange-700'
-												: 'text-gray-700'
+												? 'primary-color'
+												: 'text-gray-500'
 										} border-b border-gray-100 
                                         hover:bg-gray-50
                                      lg:hover:bg-transparent lg:border-0
-                                         hover:text-orange-700 lg:p-0`
+                                         hover:primary-color lg:p-0`
 									}
 								>
 									About
@@ -112,12 +112,12 @@ export default function Header() {
 										`block py-2 pr-4 pl-3 duration-200 
                                         ${
 											isActive
-												? 'text-orange-700'
-												: 'text-gray-700'
+												? 'primary-color '
+												: 'text-gray-500'
 										} border-b border-gray-100 
                                         hover:bg-gray-50
                                      lg:hover:bg-transparent lg:border-0
-                                         hover:text-orange-700 lg:p-0`
+                                         hover:primary-color lg:p-0`
 									}
 								>
 									Contact
@@ -133,12 +133,12 @@ export default function Header() {
 										`block py-2 pr-4 pl-3 duration-200 
                                         ${
 											isActive
-												? 'text-orange-700'
-												: 'text-gray-700'
+												? 'primary-color'
+												: 'text-gray-500'
 										} border-b border-gray-100 
                                         hover:bg-gray-50
                                      lg:hover:bg-transparent lg:border-0
-                                         hover:text-orange-700 lg:p-0`
+                                         hover:primary-color lg:p-0`
 									}
 								>
 									Projects

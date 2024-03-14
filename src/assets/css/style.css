@@ -1,3 +1,6 @@
+.primary-color {
+	color: rgb(11, 11, 53) !important;
+}
 .hero-section {
 	background-image: url('../images/bg-1.jpg');
 	background-repeat: no-repeat;
