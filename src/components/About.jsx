@@ -40,7 +40,7 @@ function About() {
 						</button>
 					</div>
 				</div>
-				<div className='custom-bg h-max rounded-lg p-4 sm:mx-0 mx-3  md:col-span-8'>
+				<div className='custom-background h-max rounded-lg p-4 sm:mx-0 mx-3  md:col-span-8'>
 					<h2 className='text-3xl font-bold text-center my-3 text-white black-shadow'>
 						Who I am
 					</h2>
@@ -68,7 +68,7 @@ function About() {
 			<h2 className='text-center mb-5 py-2 px-10 text-2xl w-max font-bold text-white black-shadow custom-bg rounded-lg mx-auto'>
 				Education
 			</h2>
-			<div className='container md:w-10/12 mx-auto mt-3 border boder-black education-section rounded-lg py-5 md:py-10'>
+			<div className='container md:w-10/12 mx-auto mt-3 border boder-black custom-background rounded-lg py-5 md:py-10'>
 				<div className='buttons-section flex flex-wrap justify-center md:justify-between w-full md:w-5/12  mx-auto mb-5'>
 					<button
 						className='primary-btn  font-bold py-2 px-4 rounded focus:bg-green-950 focus:text-white '

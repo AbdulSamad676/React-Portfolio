@@ -77,16 +77,16 @@
 	color: rgb(11, 11, 53);
 	border: 1px solid rgb(11, 11, 53);
 }
-.education-section {
+.custom-background {
 	background-color: rgb(11, 11, 53);
 }
 .custom-btn {
 	color: white;
-	background-color: rgb(11, 11, 53);
+	background-color: rgb(11, 11, 53) !important;
 	border: 1px solid white;
 }
 .custom-btn:hover {
-	background-color: white;
+	background-color: white !important;
 	color: rgb(11, 11, 53);
 	border: 1px solid rgb(11, 11, 53);
 }
